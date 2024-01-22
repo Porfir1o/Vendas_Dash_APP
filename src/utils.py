@@ -27,7 +27,7 @@ df_rec_categoria = df.groupby('Categoria do Produto')[['Preço']].sum().sort_val
 
 # 4 - DataFrame Vendedores
 
-df_vendedores = pd.DataFrame(df.groupby('Vendedor')['Preço'].agg(['sum','count']))
+df_vendedores = pd.DataFrame(df.groupby('Vendedor')['Preço'].agg(['sum', 'count']))
 
 # Função para converter arquivo csv
 

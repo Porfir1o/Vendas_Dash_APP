@@ -5,7 +5,7 @@ from utils import convert_csv, mensagem_sucesso
 # formato da pagina
 st.set_page_config(layout='wide')
 
-st.title('Dataset de Vendas')
+st.title('Dashboard de Vendas: Extrator')
 
 with st.expander('Colunas'):
     colunas = st.multiselect(
