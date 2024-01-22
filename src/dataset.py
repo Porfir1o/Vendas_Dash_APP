@@ -11,6 +11,8 @@ df = pd.DataFrame.from_dict(data)
 
 df['Data da Compra'] = pd.to_datetime(df['Data da Compra'], format='%d/%m/%Y', utc=False).dt.normalize()
 
+df['Categoria do Produto'] = df['Categoria do Produto'].str.capitalize()
+
 colunas = df.columns.tolist()
 
 file.close()
