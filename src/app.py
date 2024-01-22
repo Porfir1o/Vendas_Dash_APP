@@ -68,4 +68,3 @@ with aba3:
 
     with coluna2:
         st.plotly_chart(grafico_vendas_vendedores, use_container_width=True)
-
