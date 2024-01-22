@@ -4,13 +4,13 @@ from dataset import df
 from utils import format_number
 from graficos import grafico_map_estado, grafico_map_mensal, grafico_rec_estado,grafico_rec_categoria,grafico_rec_vendedores,grafico_vendas_vendedores
 
-# formato da pagina
+#formato da pagina
 st.set_page_config(page_title="Vendas", layout='wide')
 
-# titulo
+#titulo
 st.title("Dashboard de Vendas :shopping_trolley:")
 
-# Filtros Dashboard
+#Filtros Dashboard
 
 st.sidebar.title('Filtros')
 
