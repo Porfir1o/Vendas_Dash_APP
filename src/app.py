@@ -4,6 +4,12 @@ from dataset import df
 from utils import format_number
 from graficos import grafico_map_estado, grafico_map_mensal, grafico_rec_estado,grafico_rec_categoria,grafico_rec_vendedores,grafico_vendas_vendedores
 
+<<<<<<< HEAD
+=======
+#app = Dash(__name__)
+#server = app.server
+
+>>>>>>> a48339631f86511cb278f26907d2d1e54d548782
 # formato da pagina
 st.set_page_config(page_title="Vendas", layout='wide')
 
