@@ -1,7 +1,15 @@
 import json
 import pandas as pd
 
+<<<<<<< HEAD
 file = open("C:\\Users\\Porfirio\\PycharmProjects\\GUPPE\\Dashboard_Vendas\\src\\vendas.json")
+=======
+#file = open("C:\\Users\\Porfirio\\PycharmProjects\\GUPPE\\Dashboard_Vendas\\src\\vendas.json")
+file = open('src/vendas.json')
+#open('C:\\Users\\Porfirio\\PycharmProjects\\GUPPE\\venv\\dados\\vendas.json')
+
+data = json.load(file)
+>>>>>>> a32e1aa63ee067ea17ffdba10d7926ea29a36a90
 
 # file = open('src/vendas.json')
 # open('C:\\Users\\Porfirio\\PycharmProjects\\GUPPE\\venv\\dados\\vendas.json')
